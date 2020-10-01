@@ -42,7 +42,7 @@
   </select>
 
   <script>
-    // 页面加载
+    // webpage load
     var chart = null;
     var option = null;
     window.onload = function() {
@@ -131,7 +131,7 @@
       chart.setOption(option);
     }
 
-    // 二氧化碳数据转换成Echarts Series Data
+    // Co2 : Echarts Series Data
     function handleDataToSeries(data, year) {
       return data.map(item => {
         if(item.Year == year) {
@@ -140,7 +140,7 @@
       })
     }
 
-    // 获取二氧化碳数据
+   
     function getCO2Data() {
         return new Promise((resolve, reject) => {
             resolve(member);
@@ -155,7 +155,7 @@
       })
     }
 
-    // 年份Select
+    // years
     async function handleSelect(e) {
       e = e || window.event;
       let list = e.target.children;
