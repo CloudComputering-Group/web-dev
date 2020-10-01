@@ -1,0 +1,19 @@
+{
+  "name": "07co2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "numpy": "0.0.1",
+    "pandas": "0.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "echarts": "^4.9.0"
+  }
+}
